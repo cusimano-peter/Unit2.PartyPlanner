@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet" type="css">
+  <title>Party Planner</title>
+</head>
+<body>
+
+  <h1>Party Planner</h1>
+
+  <!-- List of parties -->
+  <ul id="parties-list">
+    <!-- Parties will be rendered here by JavaScript -->
+  </ul>
+
+  <!-- New party form -->
+  <form id="new-party-form">
+    <h2>Schedule a New Party</h2>
+    <div>
+      <label for="name">Party Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+    </div>
+    <div>
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+    </div>
+    <div>
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required>
+    </div>
+    <div>
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+
+  <script> 
+  console.log('Script loaded!');
+  </script>
+  
+  </body>
+  </html>
+  </script>
+
+</body>
+</html>
